@@ -4,6 +4,7 @@ metadata:
   name: redis
 spec:
   releaseName: redis
+  targetNamespace: alan-flux-redis
   chart:
     spec:
       chart: redis
