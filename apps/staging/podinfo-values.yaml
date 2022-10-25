@@ -7,6 +7,10 @@ spec:
   chart:
     spec:
       version: ">=1.0.0-alpha"
+  upgrade:
+    remediation:
+      remediateLastFailure: true
+      strategy: "uninstall"
   test:
     enable: false
   values:
