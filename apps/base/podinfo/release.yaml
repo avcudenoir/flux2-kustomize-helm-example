@@ -20,7 +20,6 @@ spec:
   # https://github.com/stefanprodan/podinfo/blob/master/charts/podinfo/values.yaml
   values:
     cache: tcp://redis-master.redis:6379
-    replicaCount: 2
     ingress:
       enabled: true
       annotations:
